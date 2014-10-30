@@ -1,0 +1,131 @@
+The following files were generated for 'pcieCore' in directory
+E:\k7_pcie\trunk\ise\xd_daq_pcie2x4main\ipcore_dir\
+
+Generate XCO file:
+   CORE Generator input file containing the parameters used to generate a core.
+
+   * pcieCore.xco
+
+Misc Files Generator:
+   Please see the core data sheet.
+
+   * pcieCore/implement/fsbl_zc706.elf
+
+Generate EJava outputs:
+   Please see the core data sheet.
+
+   * pcieCore/example_design/EP_MEM.v
+   * pcieCore/example_design/PIO.v
+   * pcieCore/example_design/PIO_EP.v
+   * pcieCore/example_design/PIO_EP_MEM_ACCESS.v
+   * pcieCore/example_design/PIO_RX_ENGINE.v
+   * pcieCore/example_design/PIO_TO_CTRL.v
+   * pcieCore/example_design/PIO_TX_ENGINE.v
+   * pcieCore/example_design/pcie_app_7x.v
+   * pcieCore/example_design/xilinx_pcie_2_1_ep_7x.v
+   * pcieCore/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen2_xc7k160t-ffg676-2-PCIE_X0Y0.ucf
+   * pcieCore/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen2_xc7k160t-ffg676-2-PCIE_X0Y0.xdc
+   * pcieCore/hierarchy.txt
+   * pcieCore/implement/implement.bat
+   * pcieCore/implement/implement.sh
+   * pcieCore/implement/planAhead_rdn.bat
+   * pcieCore/implement/planAhead_rdn.sh
+   * pcieCore/implement/planAhead_rdn.tcl
+   * pcieCore/implement/xilinx_pcie_2_1_ep_7x.prj
+   * pcieCore/implement/xilinx_pcie_2_1_ep_7x.xcf
+   * pcieCore/implement/xilinx_pcie_2_1_ep_7x.xst
+   * pcieCore/simulation/dsport/pci_exp_expect_tasks.v
+   * pcieCore/simulation/dsport/pci_exp_usrapp_cfg.v
+   * pcieCore/simulation/dsport/pci_exp_usrapp_com.v
+   * pcieCore/simulation/dsport/pci_exp_usrapp_pl.v
+   * pcieCore/simulation/dsport/pci_exp_usrapp_rx.v
+   * pcieCore/simulation/dsport/pci_exp_usrapp_tx.v
+   * pcieCore/simulation/dsport/pcie_2_1_rport_7x.v
+   * pcieCore/simulation/dsport/pcie_axi_trn_bridge.v
+   * pcieCore/simulation/dsport/xilinx_pcie_2_1_rport_7x.v
+   * pcieCore/simulation/functional/board.f
+   * pcieCore/simulation/functional/board.v
+   * pcieCore/simulation/functional/board_common.v
+   * pcieCore/simulation/functional/isim_cmd.tcl
+   * pcieCore/simulation/functional/simulate_isim.bat
+   * pcieCore/simulation/functional/simulate_isim.sh
+   * pcieCore/simulation/functional/simulate_mti.do
+   * pcieCore/simulation/functional/simulate_ncsim.sh
+   * pcieCore/simulation/functional/simulate_vcs.sh
+   * pcieCore/simulation/functional/sys_clk_gen.v
+   * pcieCore/simulation/functional/sys_clk_gen_ds.v
+   * pcieCore/simulation/functional/wave.do
+   * pcieCore/simulation/functional/waves_vcs.tcl
+   * pcieCore/simulation/functional/xilinx_lib_vcs.f
+   * pcieCore/simulation/tests/sample_tests1.v
+   * pcieCore/simulation/tests/tests.v
+   * pcieCore/source/pcieCore.v
+   * pcieCore/source/pcieCore_axi_basic_rx.v
+   * pcieCore/source/pcieCore_axi_basic_rx_null_gen.v
+   * pcieCore/source/pcieCore_axi_basic_rx_pipeline.v
+   * pcieCore/source/pcieCore_axi_basic_top.v
+   * pcieCore/source/pcieCore_axi_basic_tx.v
+   * pcieCore/source/pcieCore_axi_basic_tx_pipeline.v
+   * pcieCore/source/pcieCore_axi_basic_tx_thrtl_ctl.v
+   * pcieCore/source/pcieCore_gt_rx_valid_filter_7x.v
+   * pcieCore/source/pcieCore_gt_top.v
+   * pcieCore/source/pcieCore_gt_wrapper.v
+   * pcieCore/source/pcieCore_gtp_pipe_drp.v
+   * pcieCore/source/pcieCore_gtp_pipe_rate.v
+   * pcieCore/source/pcieCore_gtp_pipe_reset.v
+   * pcieCore/source/pcieCore_pcie_7x.v
+   * pcieCore/source/pcieCore_pcie_bram_7x.v
+   * pcieCore/source/pcieCore_pcie_bram_top_7x.v
+   * pcieCore/source/pcieCore_pcie_brams_7x.v
+   * pcieCore/source/pcieCore_pcie_pipe_lane.v
+   * pcieCore/source/pcieCore_pcie_pipe_misc.v
+   * pcieCore/source/pcieCore_pcie_pipe_pipeline.v
+   * pcieCore/source/pcieCore_pcie_top.v
+   * pcieCore/source/pcieCore_pipe_clock.v
+   * pcieCore/source/pcieCore_pipe_drp.v
+   * pcieCore/source/pcieCore_pipe_eq.v
+   * pcieCore/source/pcieCore_pipe_rate.v
+   * pcieCore/source/pcieCore_pipe_reset.v
+   * pcieCore/source/pcieCore_pipe_sync.v
+   * pcieCore/source/pcieCore_pipe_user.v
+   * pcieCore/source/pcieCore_pipe_wrapper.v
+   * pcieCore/source/pcieCore_qpll_drp.v
+   * pcieCore/source/pcieCore_qpll_reset.v
+   * pcieCore/source/pcieCore_qpll_wrapper.v
+   * pcieCore/source/pcieCore_rxeq_scan.v
+   * pcieCore.veo
+
+All Documents Generator:
+   Please see the core data sheet.
+
+   * pcieCore/doc/pcie_7x_v1_11_readme.txt
+   * pcieCore/doc/pg054-7series-pcie.pdf
+
+Generate XMDF file:
+   ISE Project Navigator interface file. ISE uses this file to determine how the
+   files output by CORE Generator for the core can be integrated into your ISE
+   project.
+
+   * pcieCore_xmdf.tcl
+
+Generate ISE project file:
+   ISE Project Navigator support files. These are generated files and should not
+   be edited directly.
+
+   * pcieCore.gise
+   * pcieCore.xise
+
+Deliver Readme:
+   Readme file for the IP.
+
+   * pcieCore_readme.txt
+
+Generate FLIST file:
+   Text file listing all of the output files produced when a customized core was
+   generated in the CORE Generator.
+
+   * pcieCore_flist.txt
+
+Please see the Xilinx CORE Generator online help for further details on
+generated files and how to use them.
+

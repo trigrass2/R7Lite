@@ -1,0 +1,78 @@
+ xilinx_pcie_2_1_ep_7x
+ |
+ |--pcieCore_pipe_clock (When External Clocking enabled)
+ |--pcieCore (Core Top Level, in source directory)
+ |  |
+ |  |--pcieCore_pcie_top
+ |  |  |
+ |  |  |--pcieCore_axi_basic_top
+ |  |  |  |
+ |  |  |  |--pcieCore_axi_basic_rx
+ |  |  |  |  |
+ |  |  |  |  |--pcieCore_axi_basic_rx_pipeline
+ |  |  |  |  |--pcieCore_axi_basic_rx_null_gen
+ |  |  |  |
+ |  |  |  |--pcieCore_axi_basic_tx
+ |  |  |     |
+ |  |  |     |--pcieCore_axi_basic_tx_pipeline
+ |  |  |     |--pcieCore_axi_basic_tx_thrtl_ctl
+ |  |  |
+ |  |  |--pcieCore_pcie_7x
+ |  |  |  |
+ |  |  |  |--pcieCore_pcie_bram_top_7x
+ |  |  |  |  |
+ |  |  |  |  |--pcieCore_pcie_brams_7x (an instance each for Rx & Tx)
+ |  |  |  |     |
+ |  |  |  |     |--pcieCore_pcie_bram_7x
+ |  |  |  |
+ |  |  |  |--PCIE_2_1 (Integrated Block Instance)
+ |  |  |
+ |  |  |--pcieCore_pcie_pipe_pipeline
+ |  |     |
+ |  |     |--pcieCore_pcie_pipe_misc
+ |  |     |--pcieCore_pcie_pipe_lane (per lane)
+ |  |
+ |  |--pcieCore_gt_top
+ |     |
+ |     |--pcieCore_pipe_wrapper
+ |        |
+ |        |--pcieCore_pipe_clock
+ |        |--pcieCore_pipe_reset
+ |        |--pcieCore_qpll_reset
+ |        |--pcieCore_pipe_user
+ |        |--pcieCore_pipe_rate
+ |        |--pcieCore_pipe_sync
+ |        |--pcieCore_pipe_drp
+ |        |--pcieCore_pipe_eq
+ |        |  |
+ |        |  |--pcieCore_rxeq_scan
+ |        |
+ |        |--pcieCore_qpll_drp
+ |        |--pcieCore_qpll_wrapper
+ |        |--pcieCore_gt_wrapper
+ |        |  |
+ |        |  |-- GTXE2_CHANNEL
+ |        |
+ |        |--pcieCore_qpll_drp.v
+ |        |--pcieCore_qpll_wrapper.v
+ |           |
+ |           |-- GTXE2_COMMON
+ |
+ |--pcie_app_7x (PIO design, in example_design directory)
+    |
+    |--PIO
+       |
+       |--PIO_EP
+       |  |
+       |  |--PIO_EP_MEM_ACCESS
+       |  |  |
+       |  |  |--EP_MEM
+       |  |     |
+       |  |     |--RAMB36
+       |  |
+       |  |--PIO_RX_ENGINE
+       |  |--PIO_TX_ENGINE
+       |
+       |--PIO_TO_CTRL
+
+

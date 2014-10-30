@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="xd_daq" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/MIG_4Port E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|MIG_4Ports.v/u_ddr3_ip - ddr3_ip</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MIG_4Port_driver.v/MIG_4Port_inst - MIG_4Port</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MIG_4Port_driver.v</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|MIG_4Port_driver.v</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|MIG_4Port_driver.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|MIG_4Port_driver.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|MIG_4Port_driver.v/uut - MIG_4Port</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|R7Lite|trunk|ise|R7Lite|MIG_4Port_driver.v</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MIG_4Port_driver.v</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MIG_4Port_driver.v/MIG_4Port_inst - MIG_4Port</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MIG_4Port_driver.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip/u_ddr3_infrastructure - mig_7series_v1_9_infrastructure</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MIG_4Port_driver.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std</ClosedNode>
+         <ClosedNode>/PCIe_UserLogic_00 - structural E:|Board_Dev|L8_K7_V1|ise|xd_daq|MyUserLogic|UserLogic_00|PCIe_UserLogic_00.vhd</ClosedNode>
+         <ClosedNode>/bram_DDRs_Control - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|bram_DDRs_Control.vhd</ClosedNode>
+         <ClosedNode>/bram_DDRs_Control_loopback - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|bram_DDRs_Control_Loopback.vhd</ClosedNode>
+         <ClosedNode>/data_path E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|data_path.v</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|ddr3_source|ddr3_driver.v</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|ddr3_source|ddr3_driver.v</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ddr3_source|ddr3_driver.v</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ddr3_source|ddr3_driver.v/u_ddr3_ip - ddr3_ip</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ddr3_source|ddr3_driver.v/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std/mem_intfc0 - mig_7series_v1_9_mem_intfc/ddr_phy_top0 - mig_7series_v1_9_ddr_phy_top</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ddr3_source|ddr3_driver.v/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std/mem_intfc0 - mig_7series_v1_9_mem_intfc/mc0 - mig_7series_v1_9_mc/bank_mach0 - mig_7series_v1_9_bank_mach</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ddr3_source|ddr3_driver.v/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std/mem_intfc0 - mig_7series_v1_9_mem_intfc/mc0 - mig_7series_v1_9_mc/rank_mach0 - mig_7series_v1_9_rank_mach</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|R7Lite|trunk|ise|R7Lite|ddr3_source|ddr3_driver.v</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ddr3_source|ddr3_driver.v</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ddr3_source|ddr3_driver.v/u_ddr3_ip - ddr3_ip/u_ddr3_infrastructure - mig_7series_v1_9_infrastructure</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ddr3_source|ddr3_driver.v/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ddr3_source|ddr3_driver.v/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std/mem_intfc0 - mig_7series_v1_9_mem_intfc</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ddr3_source|ddr3_driver.v/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std/u_ui_top - mig_7series_v1_9_ui_top</ClosedNode>
+         <ClosedNode>/eb_wrapper - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|FIFO_Wrapper.vhd</ClosedNode>
+         <ClosedNode>/eb_wrapper_loopback - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|FIFO_Wrapper_Loopback.vhd</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|ecl_2ch_driver.v/ecl_driver_inst1 - ecl_driver</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|ecl_2ch_driver.v</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ecl_2ch_driver.v</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ecl_2ch_driver.v/ecl_driver_inst0 - ecl_driver</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ecl_2ch_driver.v/ecl_driver_inst1 - ecl_driver</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|R7Lite|trunk|ise|R7Lite|ecl_2ch_driver.v</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ecl_2ch_driver.v</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ecl_2ch_driver.v/ecl_driver_inst1 - ecl_driver</ClosedNode>
+         <ClosedNode>/ecl_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|ecl_driver.v</ClosedNode>
+         <ClosedNode>/ecl_driver E:|R7Lite|trunk|ise|R7Lite|ecl_driver.v</ClosedNode>
+         <ClosedNode>/l8_system E:|R7Lite|trunk|ise|R7Lite|l8_system.v</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v/MIG_4Port_inst - MIG_4Port</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v/baseband_process_ch0 - baseband_process</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v/baseband_process_ch1 - baseband_process</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v/data_path_ch0 - data_path</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v/data_path_ch1 - data_path</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v/mig_ctrl_inst - mig_ctrl</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v/pcie_ctrl_inst - pcie_ctrl</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v/pcie_if_inst - pcie_if</ClosedNode>
+         <ClosedNode>/mig_ctrl E:|R7Lite|trunk|ise|R7Lite|mig_ctrl.v</ClosedNode>
+         <ClosedNode>/pcieCore - pcie_7x E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcieCore|source|pcieCore.vhd/gt_top_i - pcieCore_gt_top - pcie_7x</ClosedNode>
+         <ClosedNode>/pcieCore - pcie_7x E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcieCore|source|pcieCore.vhd/pcie_top_i - pcieCore_pcie_top - pcie_7x</ClosedNode>
+         <ClosedNode>/pcie_ctrl E:|R7Lite|trunk|ise|R7Lite|pcie_ctrl.v</ClosedNode>
+         <ClosedNode>/pcie_ctrl E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_ctrl.v</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|pcie_driver.v</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/bram_DDRs_Control_inst - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/bram_DDRs_Control_loopback_inst - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/eb_wrapper_inst - eb_wrapper - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/eb_wrapper_loopback_inst - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/gt_top_i - pcieCore_gt_top</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/axi_basic_top - pcieCore_axi_basic_top</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/pcie_7x_i - pcieCore_pcie_7x</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/pcie_pipe_pipeline_i - pcieCore_pcie_pipe_pipeline</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/CplD_Channel - rx_CplD_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Downstream_DMA_Engine - dsDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/MRd_Channel - rx_MRd_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Upstream_DMA_Engine - usDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/bram_DDRs_Control_inst - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/bram_DDRs_Control_loopback_inst - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/eb_wrapper_loopback_inst - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/gt_top_i - pcieCore_gt_top</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/CplD_Channel - rx_CplD_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Downstream_DMA_Engine - dsDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/MRd_Channel - rx_MRd_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Upstream_DMA_Engine - usDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/tx_Itf - tx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|R7Lite|trunk|ise|R7Lite|pcie_driver.v</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/bram_DDRs_Control_inst - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/bram_DDRs_Control_loopback_inst - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/eb_wrapper_inst - eb_wrapper - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/eb_wrapper_loopback_inst - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/CplD_Channel - rx_CplD_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Downstream_DMA_Engine - dsDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/MRd_Channel - rx_MRd_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Upstream_DMA_Engine - usDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/tx_Itf - tx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/DMA_Host2Board_Busy_x0 - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/DMA_Host2Board_Done_x0 - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/debug1i - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/debug2i - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/debug3i - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/debug4i - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register01rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register01rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register01td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register01tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register02rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register02rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register02td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register02tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register03rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register03rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register03td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register03tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register04rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register04rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register04td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register04tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register05rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register05rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register05td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register05tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register06rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register06rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register06td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register06tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register07rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register07rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register07td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register07tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register08rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register08rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register08td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register08tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register09rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register09rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register09td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register09tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register10rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register10rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register10td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register10tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register11rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register11rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register11td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register11tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register12rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register12rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register12td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register12tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register13rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register13rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register13td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register13tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register14rd - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register14rv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register14td - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/PCIe_UserLogic_00_inst - PCIe_UserLogic_00 - structural/register14tv - synth_reg_w_init - structural</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/bram_DDRs_Control_inst - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/bram_DDRs_Control_loopback_inst - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/eb_wrapper_inst - eb_wrapper - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/eb_wrapper_loopback_inst - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/instance_name - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/instance_name - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/pcieCore_i - pcieCore</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/pcieCore_i - pcieCore/gt_top_i - pcieCore_gt_top/pipe_wrapper_i - pcieCore_pipe_wrapper</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/pcieCore_i - pcieCore/gt_top_i - pcieCore_gt_top/pipe_wrapper_i - pcieCore_pipe_wrapper/pipe_eq_i - pcieCore_pipe_eq</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/tlpControl_inst - tlpControl - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/CplD_Channel - rx_CplD_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/MRd_Channel - rx_MRd_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Upstream_DMA_Engine - usDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pcie_if E:|Board_Dev|L8_K7_V1|ise|xd_daq|pcie_if.v/tlpControl_inst - tlpControl - Behavioral/tx_Itf - tx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/pre_pcie_pn_det E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|pre_pcie_pn_det.v</ClosedNode>
+         <ClosedNode>/pre_pcie_pn_det E:|R7Lite|trunk|ise|R7Lite|pre_pcie_pn_det.v</ClosedNode>
+         <ClosedNode>/pre_pcie_pn_det E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pre_pcie_pn_det.v</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/MIG_4Port_inst - MIG_4Port</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/adaloop_inst - adaloop</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/data_path_ch0 - data_path</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/data_path_ch1 - data_path</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/data_path_i - data_path</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/data_path_q - data_path</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/pcie_if_inst - pcie_if</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/pcie_if_inst - pcie_if/bram_DDRs_Control_inst - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/pcie_if_inst - pcie_if/bram_DDRs_Control_loopback_inst - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/pcie_if_inst - pcie_if/eb_wrapper_inst - eb_wrapper - Behavioral</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/pcie_if_inst - pcie_if/eb_wrapper_loopback_inst - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore</ClosedNode>
+         <ClosedNode>/r7lite_top E:|R7Lite|trunk|ise|R7Lite|MySource|r7lite_top.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral</ClosedNode>
+         <ClosedNode>/tlpControl - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|tlpControl.vhd</ClosedNode>
+         <ClosedNode>/tlpControl - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|tlpControl.vhd/rx_Itf - rx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/tlpControl - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|tlpControl.vhd/tx_Itf - tx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/v6pcieDMA - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|v6eb_pcie.vhd/DDRs_ctrl_module - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/v6pcieDMA - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|v6eb_pcie.vhd/DDRs_ctrl_module - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/v6pcieDMA - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|v6eb_pcie.vhd/queue_buffer0 - eb_wrapper - Behavioral</ClosedNode>
+         <ClosedNode>/v6pcieDMA - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|v6eb_pcie.vhd/queue_buffer0 - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/v6pcieDMA - Behavioral E:|Board_Dev|L8_K7_V1|ise|xd_daq|OpenSource|v6eb_pcie.vhd/theTlpControl - tlpControl - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/data_path_ch1 - data_path</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/bram_DDRs_Control_inst - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/bram_DDRs_Control_loopback_inst - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/eb_wrapper_loopback_inst - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/tx_Itf - tx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/pre_pcie_pn_det_ch0 - pre_pcie_pn_det</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie1x4main|MySource|xd_daq.v/pre_pcie_pn_det_ch1 - pre_pcie_pn_det</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/MIG_4Port_inst - MIG_4Port</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/data_path_ch0 - data_path</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/data_path_ch1 - data_path</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/bram_DDRs_Control_inst - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/bram_DDRs_Control_loopback_inst - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/eb_wrapper_inst - eb_wrapper - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/eb_wrapper_loopback_inst - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/gt_top_i - pcieCore_gt_top</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/axi_basic_top - pcieCore_axi_basic_top</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/pcie_7x_i - pcieCore_pcie_7x/pcie_bram_top - pcieCore_pcie_bram_top_7x/pcie_brams_rx - pcieCore_pcie_brams_7x</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/pcie_7x_i - pcieCore_pcie_7x/pcie_bram_top - pcieCore_pcie_bram_top_7x/pcie_brams_tx - pcieCore_pcie_brams_7x</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/pcie_pipe_pipeline_i - pcieCore_pcie_pipe_pipeline</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/CplD_Channel - rx_CplD_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Downstream_DMA_Engine - dsDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/MRd_Channel - rx_MRd_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/rx_Itf - rx_Transact - Behavioral/Upstream_DMA_Engine - usDMA_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral/tx_Itf - tx_Transact - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/MIG_4Port_inst - MIG_4Port</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/MIG_4Port_inst - MIG_4Port/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/PCIe_XD_User_Logic_inst - PCIe_XD_User_Logic</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/data_path_ch1 - data_path</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/ddr3_driver_inst - ddr3_driver</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/ddr3_driver_inst - ddr3_driver/u_ddr3_ip - ddr3_ip</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/ddr3_driver_inst - ddr3_driver/u_ddr3_ip - ddr3_ip/u_memc_ui_top_std - mig_7series_v1_9_memc_ui_top_std</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/bram_DDRs_Control_inst - bram_DDRs_Control - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/bram_DDRs_Control_loopback_inst - bram_DDRs_Control_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/eb_wrapper_loopback_inst - eb_wrapper_loopback - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/gt_top_i - pcieCore_gt_top</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/gt_top_i - pcieCore_gt_top/pipe_wrapper_i - pcieCore_pipe_wrapper</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/axi_basic_top - pcieCore_axi_basic_top</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/pcie_7x_i - pcieCore_pcie_7x/pcie_bram_top - pcieCore_pcie_bram_top_7x</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/pcieCore_i - pcieCore/pcie_top_i - pcieCore_pcie_top/pcie_pipe_pipeline_i - pcieCore_pcie_pipe_pipeline</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|MySource|xd_daq.v/pcie_if_inst - pcie_if/tlpControl_inst - tlpControl - Behavioral</ClosedNode>
+         <ClosedNode>/xd_daq E:|Board_Dev|L8_K7_V1|ise|xd_daq|xd_daq.v</ClosedNode>
+         <ClosedNode>/xd_daq E:|R7Lite|trunk|ise|R7Lite|MySource|xd_daq.v/MIG_4Port_inst - MIG_4Port</ClosedNode>
+         <ClosedNode>/xd_daq E:|R7Lite|trunk|ise|R7Lite|MySource|xd_daq.v/data_path_ch0 - data_path</ClosedNode>
+         <ClosedNode>/xd_daq E:|R7Lite|trunk|ise|R7Lite|MySource|xd_daq.v/data_path_ch1 - data_path</ClosedNode>
+         <ClosedNode>/xd_daq E:|R7Lite|trunk|ise|R7Lite|MySource|xd_daq.v/pcie_if_inst - pcie_if</ClosedNode>
+         <ClosedNode>/xd_daq E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/MIG_4Port_inst - MIG_4Port</ClosedNode>
+         <ClosedNode>/xd_daq E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/data_path_ch0 - data_path</ClosedNode>
+         <ClosedNode>/xd_daq E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/data_path_ch1 - data_path</ClosedNode>
+         <ClosedNode>/xd_daq E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MySource|xd_daq.v/pcie_if_inst - pcie_if</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>r7lite_top (E:/R7Lite/trunk/ise/R7Lite/MySource/r7lite_top.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000195000000020000000000000000000000000200000064ffffffff000000810000000300000002000001950000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>r7lite_top (E:/R7Lite/trunk/ise/R7Lite/MySource/r7lite_top.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001f0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001f00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >130</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000362000000040101000100000000000000000000000064ffffffff000000810000000000000004000001840000000100000000000000fc00000001000000000000007800000001000000000000006a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000201000000010000000100000000000000000000000064ffffffff000000810000000000000001000002010000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000012f0000008401000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/Freq_Count_Top_tb E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MySource|Freq_Count_Top_tb.v</ClosedNode>
+         <ClosedNode>/MIG_4Port_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MIG_4Port_driver.v</ClosedNode>
+         <ClosedNode>/MIG_4Port_tb E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MIG_4Port_tb.v</ClosedNode>
+         <ClosedNode>/adaloop_tb E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|adaloop_tb.v</ClosedNode>
+         <ClosedNode>/counter_tb E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|counter_tb.v</ClosedNode>
+         <ClosedNode>/ddr3_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ddr3_source|ddr3_driver.v</ClosedNode>
+         <ClosedNode>/ecl_2ch_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|ecl_2ch_driver.v</ClosedNode>
+         <ClosedNode>/l8_system E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|l8_system.v</ClosedNode>
+         <ClosedNode>/pcie_driver E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pcie_driver.v</ClosedNode>
+         <ClosedNode>/prbs_tb E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MySource|prbs_tb.v</ClosedNode>
+         <ClosedNode>/pre_pcie_pn_det E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|pre_pcie_pn_det.v</ClosedNode>
+         <ClosedNode>/wr_fifo_tb E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|wr_fifo_tb.v</ClosedNode>
+         <ClosedNode>/xd_daq E:|k7_pcie|trunk|ise|xd_daq_pcie2x4main|MySource|xd_daq.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>adaloop_tb (E:/k7_pcie/trunk/ise/xd_daq_pcie2x4main/adaloop_tb.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000170000000020000000000000000000000000200000064ffffffff000000810000000300000002000001700000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>adaloop_tb (E:/k7_pcie/trunk/ise/xd_daq_pcie2x4main/adaloop_tb.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <CopyAdditionalFiles/>
+</Project>
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="xd_daq" >
+   <!--This is an ISE project configuration file.-->
+</Project>
